@@ -95,7 +95,7 @@
                 <a href="https://www.instagram.com/LAYALI BAHRAIN/" target="_blank"><img src="{{asset('assets/img/instagram.svg')}}" alt="MTS Instagram Account"></a>
             </li>
             <li class="list-inline-item">
-                <a href="https://www.linkedin.com/company/56469535/" target="_blank"><img src="{{asset('assets/img/linkedin.svg')}}" alt="MTS Linkedin Account"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="{{asset('assets/img/linkedin.svg')}}" alt="MTS Linkedin Account"></a>
             </li>
         </ul>
     </div>
@@ -124,9 +124,7 @@
                     <a class="nav-link" href="{{route('services')}}">services</a>
                 </li>
                
-                <li class="{{ (request()->is('careers*')) ? 'active' : '' }} nav-item">
-                    <a class="nav-link" href="{{route('careers')}}">careers</a>
-                </li>
+            
               
                 <li class="{{ (request()->is('contact')) ? 'active' : '' }} nav-item">
                     <a class="nav-link" href="{{route('contact')}}">contact</a>

@@ -19,7 +19,7 @@
                              class="img-fluid d-block d-sm-none">
                     </div>
                     <div class="banner-details">
-                        <h1>IT Consulting & Branding</h1>
+                        <h2 id="main-des">VAT CONSULTANCY AND DOCUMENTS CLEARING</h2>
                         <a href="{{route('servicesShow','it-consulting')}}">More services</a>
                     </div>
                 </div>
@@ -569,3 +569,10 @@
     </div>
  
 @endsection
+<style>
+
+#main-des{
+    color: white;
+}
+
+</style>

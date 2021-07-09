@@ -15,32 +15,32 @@
                     <div class="banner-image">
                         <img src="assets/img/business-strategy.png" alt="IT consulting & Branding"
                              class="img-fluid d-none d-sm-block">
-                        <img src="assets/img/business-strategy-2.png" alt="IT consulting & Branding"
+                        <img src="assets/img/business-strategy.png" alt="IT consulting & Branding"
                              class="img-fluid d-block d-sm-none">
                     </div>
                     <div class="banner-details">
-                        <h2 id="main-des">VAT CONSULTANCY AND DOCUMENTS CLEARING</h2>
-                        <a href="{{route('servicesShow','it-consulting')}}">More services</a>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="item">
-                <div class="banner-item">
-                    <div class="banner-image">
-                        <img src="assets/img/business-strategy-3.png" alt="Website Design" class="img-fluid d-none d-sm-block">
-                        <img src="assets/img/web-design2.png" alt="Website Design" class="img-fluid d-block d-sm-none">
-                    </div>
-                    <div class="banner-details">
-                        <h1>Website Design and Development</h1>
-                        <a href="{{route('servicesShow','website-design-and-development')}}">More services</a>
+                        <h2 id="main-des">VAT CONSULTANCY</h2>
+                        <a href="/services">More services</a>
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="banner-item">
                     <div class="banner-image">
-                        <img src="assets/img/seo-banner.png" alt="SEO" class="img-fluid d-none d-sm-block">
-                        <img src="assets/img/seo-banner2.png" alt="SEO" class="img-fluid d-block d-sm-none">
+                        <img src="assets/img/a.png" alt="Website Design" class="img-fluid d-none d-sm-block">
+                        <img src="assets/img/a.png" alt="Website Design" class="img-fluid d-block d-sm-none">
+                    </div>
+                    <div class="banner-details">
+                        <h2 id="main-des">VISA  AND EMBASSY SERVICES</h2>
+                        <a href="/services">More services</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="item">
+                <div class="banner-item">
+                    <div class="banner-image">
+                        <img src="assets/img/b.png" alt="SEO" class="img-fluid d-none d-sm-block">
+                        <img src="assets/img/b.png" alt="SEO" class="img-fluid d-block d-sm-none">
                     </div>
                     <div class="banner-details">
                         <h1>SEO & Digital Marketing</h1>
@@ -148,7 +148,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="service">
+                                <!-- <div class="service">
                                     <a href="{{route('servicesShow','website-design-and-development')}}">
                                         <img src="{{asset('assets/img/web-development-designing.svg')}}"
                                              alt="Website Design"
@@ -161,7 +161,7 @@
                                                                   alt="Read Website Design"
                                                                   class="img-fluid"></a>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="service">
                                     <a href="{{route('servicesShow','custom-software-development')}}">
                                         <img src="{{asset('assets/img/software.svg')}}"
@@ -272,22 +272,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="service">
-                                    <a href="{{route('servicesShow','website-design-and-development')}}">
-                                        <img src="{{asset('assets/img/web-development-designing.svg')}}"
-                                             alt="Website Design"
-                                             class="service-image img-fluid">
-                                        <h5>Website Design and Development</h5>
-                                        <p>Boost your business through a technology first approach to showcase your
-                                            uniqueness. Dont settle with a template based , generic website.</p>
-                                        <a href="{{route('servicesShow','website-design-and-development')}}"
-                                           class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
-                                                                  alt="Read Website Design"
-                                                                  class="img-fluid"></a>
-                                    </a>
-                                </div>
-                            </div>
+                        
                             <div class="item">
                                 <div class="service">
                                     <a href="{{route('servicesShow','custom-software-development')}}">

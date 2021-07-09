@@ -79,7 +79,7 @@
             </li>
             <li class="list-inline-item call">
                 <span>Reach Out</span>
-                <a href="+16473399023">+(973) 353-485-20</a>
+                <a href="+97335348520">+(973) 353-485-20</a>
             </li>
         
             <li class="list-inline-item place">
@@ -102,9 +102,9 @@
 
 </div>
 <a href="javascript:void(0)" class="toggle-link toggle-icon"><img src="{{asset('assets/img/toggle.png')}}" alt="Sliding Menu"></a>
-<a href="tel:+16473399023" class="call-button"><img src="{{asset('assets/img/call-black.svg')}}"
-                                                    alt="Agency Contact"><span>+1 (647) 614-4136</span></a>
-<a href="https://wa.me/16473399023" class="whatsapp-mobile d-block d-sm-none img-fluid"><img
+<a href="tel:+97335348520" class="call-button"><img src="{{asset('assets/img/call-black.svg')}}"
+                                                    alt="Agency Contact"><span>+(973) 353 48520</span></a>
+<a href="https://wa.me/97335348520" class="whatsapp-mobile d-block d-sm-none img-fluid"><img
         src="{{asset('assets/img/whatsapp.svg')}}" alt="" alt="whatsapp"></a>
 <nav class="navbar @yield('navClass') navbar-expand-lg fixed-top navbar-light">
     <div class="container-fluid">
@@ -146,8 +146,8 @@
         <ul>
             <li><a href="https://www.facebook.com/LAYALI BAHRAIN/" target="_blank"><img src="{{asset('assets/img/facebook.png')}}" alt="Agency Facebook Account"></a></li>
             <li><a href="https://www.instagram.com/LAYALI BAHRAIN/" target="_blank"><img src="{{asset('assets/img/instagram.png')}}" alt="Agency Instagram Account"></a></li>
-            <li><a href="https://www.linkedin.com/company/56469535/" target="_blank"><img src="{{asset('assets/img/linkedin.png')}}" alt="Agency Linkedin Account"></a></li>
-            <li><a href="" class="email-id"><img src="{{asset('assets/img/email-id.png')}}" alt="MTS Email"></a></li>
+            <li><a href="https://www.linkedin.com/company/" target="_blank"><img src="{{asset('assets/img/linkedin.png')}}" alt="Agency Linkedin Account"></a></li>
+            
         </ul>
     </div>
 </div>

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFlayersTable extends Migration
+class AddCompanyodusertable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class CreateFlayersTable extends Migration
      */
     public function up()
     {
-        Schema::create('flayers', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('name')->nullable();
-            $table->string('type')->nullable();
-            $table->string('photo')->nullable();
-            $table->timestamps();
+        Schema::table('users', function (Blueprint $table) {
+            $table->integer('company_id')->nullable();
+            
         });
     }
 
@@ -29,6 +26,8 @@ class CreateFlayersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('flayers');
+        Schema::table('users', function (Blueprint $table) {
+            //
+        });
     }
 }

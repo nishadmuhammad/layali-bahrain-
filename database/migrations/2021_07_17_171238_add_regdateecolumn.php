@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSubscribersTable extends Migration
+class AddRegdateecolumn extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,8 @@ class CreateSubscribersTable extends Migration
      */
     public function up()
     {
-        Schema::create('subscribers', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('email')->unique();
-            $table->string('status')->nullable('Subscribed');
-            $table->timestamps();
+        Schema::table('companies', function (Blueprint $table) {
+            $table->date('registration_date')->nullable();
         });
     }
 
@@ -28,6 +25,8 @@ class CreateSubscribersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('subscribers');
+        Schema::table('companies', function (Blueprint $table) {
+            //
+        });
     }
 }

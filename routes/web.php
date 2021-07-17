@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// admin routes
+
 
 //Front end routes
 Route::get('/', 'front\HomeController@index')->name('home');
@@ -27,26 +29,25 @@ Route::post('/subscribe','front\SubscriptionController@subscribe')->name('subscr
 Route::post('/application','front\CareerController@store')->name('application');
 Route::get('/gallery','front\GalleryController@index')->name('gallery.index');
 //Auth Routes
-// Auth::routes();
 
-//Admin End Routes
-// Route::get('/admin', 'admin\HomeController@index')->name('adminHome');
-
-// Route::group(['middleware' => ['auth']], function() {
-//     Route::resource('/admin/post','admin\PostController')->only(['index','create','store','destroy','edit','update']);
-//     Route::resource('/admin/enquiry','admin\EnquiryController')->only(['index','destroy']);
-//     Route::get('/admin/bulkDelete/{id}','admin\EnquiryController@bulkDelete')->name('bulkDelete');
-//     Route::resource('/admin/testimonial','admin\TestimonialController')->only(['index','create','store','edit','update','destroy']);
-//     Route::resource('/admin/opening','admin\OpeningController')->only(['index','create','store','edit','update','destroy']);
-//     Route::resource('/admin/service','admin\ServiceController')->only(['index','create','store','edit','update','destroy']);
-//     Route::resource('/admin/application','admin\ApplicationController')->only(['index','create','store','edit','update','destroy']);
-//     Route::resource('user','admin\UserRoleController')->only(['index','edit','update','create','store','destroy']);
-//     Route::resource('role', 'admin\RoleController')->only(['index', 'create', 'store', 'destroy', 'edit', 'update']);
-//     Route::resource('/admin/portfolio','admin\PortfolioController')->only(['index','create','store','edit','update','destroy']);
-//     Route::resource('/admin/staff','admin\StaffController')->only(['index','create','store','edit','update','destroy']);
-//     Route::resource('/admin/flayer','admin\FlayerController')->only(['index','create','store','edit','update','destroy']);
-
-// });
 // Route::resource('password','admin\PasswordController')->only(['edit','update']);
+
+
+Auth::routes();
+Route::get('/logout', 'admin\DashboardController@logout');
+Route::get('/admin', 'HomeController@index')->name('home');
+
+
+Route::group(['middleware' => ['auth']], function() {
+    Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/company', 'admin\CompanyController@index')->name('company');
+Route::get('/companies', 'admin\CompanyController@show')->name('company.index');
+Route::get('/company-search', 'admin\CompanyController@search')->name('company.search');
+Route::post('/company-register','admin\CompanyController@register')->name('company.register');
+
+});
+
+
 
 

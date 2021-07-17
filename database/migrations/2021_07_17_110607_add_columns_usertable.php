@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddPhoneToApplicationsTable extends Migration
+class AddColumnsUsertable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class AddPhoneToApplicationsTable extends Migration
      */
     public function up()
     {
-        Schema::table('applications', function (Blueprint $table) {
-            $table->string('phone');
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('role')->nullable();
+            $table->string('phone')->nullable();
         });
     }
 
@@ -25,7 +26,7 @@ class AddPhoneToApplicationsTable extends Migration
      */
     public function down()
     {
-        Schema::table('applications', function (Blueprint $table) {
+        Schema::table('users', function (Blueprint $table) {
             //
         });
     }

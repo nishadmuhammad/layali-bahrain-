@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class PostWithAdvancedFeatures extends Migration
+class Deletecolumn extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,9 @@ class PostWithAdvancedFeatures extends Migration
      */
     public function up()
     {
-        Schema::table('posts', function (Blueprint $table) {
-            $table->longText('content')->nullable();
-            $table->string('slug')->nullable();
-            $table->string('thumbnail')->nullable();
-            $table->text('keywords')->nullable();
+        Schema::table('companies', function (Blueprint $table) {
+            $table->dropColumn('registration_date');
+            
         });
     }
 
@@ -28,7 +26,7 @@ class PostWithAdvancedFeatures extends Migration
      */
     public function down()
     {
-        Schema::table('posts', function (Blueprint $table) {
+        Schema::table('companies', function (Blueprint $table) {
             //
         });
     }

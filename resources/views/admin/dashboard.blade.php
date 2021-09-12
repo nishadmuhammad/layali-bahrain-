@@ -70,24 +70,38 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-xl-4 col-xxl-3">
+						</div>
 
-						<div class="col-xl-6 col-xxl-7">
+					
+						<div class="col-xl-4 col-xxl-4">
 							<div class="card flex-fill w-100">
 								<div class="card-header">
 
-									<h5 class="card-title mb-0">Recent Movement</h5>
+									<h2 style="color: red;" class="card-title mb-0 text-center">News feed</h2> <br>
+									<ul>
+										@foreach ($newses as $news)
+										@if ($news->proirity == 'Emergency')
+
+											<li style="color: red;">{{$news->news}}</li>
+
+										@elseif ($news->proirity == 'Monthend')
+
+										<li style="color: green;">{{$news->news}}</li>
+
+										@else
+										<li style="color: black;">{{$news->news}}</li>
+
+										@endif
+										@endforeach
+										</ul>
 								</div>
-								<div class="card-body py-3">
-									<div class="chart chart-sm">
-										<canvas id="chartjs-dashboard-line"></canvas>
-									</div>
-								</div>
+								
 							</div>
 						</div>
+					
+
 					</div>
-
-
-
 
 					<div class="row">
 						<div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">

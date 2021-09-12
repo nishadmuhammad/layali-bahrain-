@@ -39,12 +39,19 @@ Route::get('/admin', 'HomeController@index')->name('home');
 
 
 Route::group(['middleware' => ['auth']], function() {
-    Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/home', 'admin\NewsfeedController@index')->name('home');
 
 Route::get('/company', 'admin\CompanyController@index')->name('company');
 Route::get('/companies', 'admin\CompanyController@show')->name('company.index');
 Route::get('/company-search', 'admin\CompanyController@search')->name('company.search');
 Route::post('/company-register','admin\CompanyController@register')->name('company.register');
+
+
+Route::get('/news', 'admin\NewsfeedController@all')->name('news.all');
+Route::get('/news-feeds', 'admin\NewsfeedController@index')->name('news.index');
+Route::get('/news-feed', 'admin\NewsfeedController@create')->name('news.create');
+Route::post('/add-news-feed','admin\NewsfeedController@store')->name('add.news');
+
 
 });
 

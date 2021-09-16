@@ -24,7 +24,7 @@
                         <iframe src="https://maps.google.com/maps?q=Muhammedia%20building,Near%20gold%20city,Manama&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         <p><img src="assets/img/location-black.svg" alt="MTS Location">Building No 236,Road no 381 ,Block no 304,Muhammedia building,Near gold city,Manama</p>
                         <p><img src="assets/img/email-black.svg" alt="MTS Email">layalibahrain@gmail.com</p>
-                        <p><img src="assets/img/phone-black.svg" alt="MTS Phone">+(973) 353-485-20</p>
+                        <p><img src="assets/img/phone-black.svg" alt="MTS Phone">+(973) 335-833-55</p>
                     </div>
 
                 </div>

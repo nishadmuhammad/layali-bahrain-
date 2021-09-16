@@ -1,11 +1,11 @@
 @extends('front.layouts.app')
-@section('title', 'Best SEO, Digital Marketing, Web Development Company Toronto')
-@section('description','We are a team of Digital Creators expertise in SEO, Digital and Social Media Marketing, Website Development, Application Development, IT consulting and Branding.')
-@section('keywords','Best seo company in toronto,Best digital marketing company in toronto,Best web development companies in toronto,Toronto seo company,Toronto digital marketing agency,Best web development companies in toronto,Web development agency toronto,Low Cost SEO Services toronto')
+@section('title', 'Business Consultancy Bahrain')
+@section('description','Business Consultancy Bahrain')
+@section('keywords','Business Consultancy Bahrain')
 @section('ogImage'){{asset('assets/img/logo.png')}}@endsection
 @section('navClass','index')
 @section('logo'){{asset('assets/img/logo.png')}}@endsection
-@section('canonical','https://www.LAYALI BAHRAIN.com')
+@section('canonical','https://www.layalibahrain.com')
 @section('content')
     <div class="index">
         <div class="owl-carousel owl-theme banner-slider">
@@ -92,27 +92,24 @@
                         <div class="owl-carousel owl-theme services d-none d-sm-block" data-aos="fade-in">
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','branding')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/branding.svg')}}" alt="Branding"
                                              class="service-image img-fluid">
-                                        <h5>Branding</h5>
-                                        <p>Deep diving into the unfamiliar waters of Brand Mangement? Look to the
-                                            experts, MTS to guide you through and be a class apart from the
-                                            competition.</p>
-                                        <a href="{{route('servicesShow','branding')}}" class="read-more"><img
+                                        <h5>Company Formation</h5>
+                                        <p>Lorem ipsum</p>
+                                        <a href="/" class="read-more"><img
                                                 src="{{asset('assets/img/more-grey.png')}}"
                                                 alt="Read Branding Services"
                                                 class="img-fluid"></a>
                                     </a>
                                 </div>
                                 <div class="service">
-                                    <a href="{{route('servicesShow','digital-marketing')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/digital-marketing.svg')}}" alt="Digital Marketing"
                                              class="service-image img-fluid">
-                                        <h5>Digital Marketing</h5>
-                                        <p>Attracting, Binding, Converting and Delighting.... The "ABCD " of Digital
-                                            marketing and Business Strategy at LAYALI BAHRAIN.</p>
-                                        <a href="{{route('servicesShow','digital-marketing')}}" class="read-more"><img
+                                        <h5>Amendment</h5>
+                                        <p>Lorem ipsum</p>
+                                        <a href="/" class="read-more"><img
                                                 src="{{asset('assets/img/more-grey.png')}}"
                                                 alt="Read Digital Marketing"
                                                 class="img-fluid"></a>
@@ -121,26 +118,24 @@
                             </div>
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','it-consulting')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/it-consulting.svg')}}" alt="IT consulting"
                                              class="service-image img-fluid">
-                                        <h5>IT Consulting</h5>
-                                        <p>With our deep understanding of the web and strong marketing expertise, we’ve
-                                            helped scores of companies redefine what they are doing online.</p>
-                                        <a href="{{route('servicesShow','it-consulting')}}" class="read-more"><img
+                                        <h5> Vat In Bahrain</h5>
+                                        <p>Vat</p>
+                                        <a href="/" class="read-more"><img
                                                 src="{{asset('assets/img/more-grey.png')}}"
                                                 alt="Read IT consulting "
                                                 class="img-fluid"></a>
                                     </a>
                                 </div>
                                 <div class="service">
-                                    <a href="{{route('servicesShow','android-and-ios-development')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/android-ios.svg')}}" alt="Android and iOS apps"
                                              class="service-image img-fluid">
-                                        <h5>App Development</h5>
-                                        <p>If you're looking to leverage mobile technology for your business, our best
-                                            app developers are at your service for both Android and iOS apps.</p>
-                                        <a href="{{route('servicesShow','android-and-ios-development')}}"
+                                        <h5>Accounting And Audit</h5>
+                                        <p>Lorem ipsum</p>
+                                        <a href="/"
                                            class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
                                                                   alt="Read Android and iOS apps"
                                                                   class="img-fluid"></a>
@@ -149,15 +144,15 @@
                             </div>
                             <div class="item">
                              
-                                <div class="service">
-                                    <a href="{{route('servicesShow','custom-software-development')}}">
+                                <!-- <div class="service">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/software.svg')}}"
                                              alt="Custom Software Development"
                                              class="service-image img-fluid">
                                         <h5>Custom Software Development</h5>
                                         <p>We build robust and scalable web apps that are custom made using rapid
                                             development processes leveraging the most cultured web technologies.</p>
-                                        <a href="{{route('servicesShow','custom-software-development')}}"
+                                        <a href="/"
                                            class="read-more"><img src="assets/img/more-grey.png"
                                                                   alt="Read Custom Software Development"
                                                                   class="img-fluid"></a>
@@ -166,7 +161,7 @@
                             </div>
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','search-engine-optimization')}}">
+                                    <a href="">
                                         <img src="{{asset('assets/img/search-engine-optimization.svg')}}"
                                              alt="Search Engine Optimization"
                                              class="service-image img-fluid">
@@ -174,14 +169,14 @@
                                         <p>At LAYALI BAHRAIN, we take care of all your business concerns regarding SEO
                                             and make sure that your website is coming on the first page of Google
                                             results.</p>
-                                        <a href="{{route('servicesShow','search-engine-optimization')}}"
+                                        <a href=""
                                            class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
                                                                   alt="Read Search Engine Optimization"
                                                                   class="img-fluid"></a>
                                     </a>
                                 </div>
                                 <div class="service">
-                                    <a href="{{route('servicesShow','social-media-marketing')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/social-media-marketing.svg')}}"
                                              alt="Social Media Marketing"
                                              class="service-image img-fluid">
@@ -189,7 +184,7 @@
                                         <p>Great marketing on social media can bring remarkable success to your
                                             business, creating devoted brand advocates and even driving leads and
                                             sales.</p>
-                                        <a href="{{route('servicesShow','social-media-marketing')}}"
+                                        <a href="/"
                                            class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
                                                                   alt="Read Social Media Marketing"
                                                                   class="img-fluid"></a>
@@ -200,14 +195,14 @@
                         <div class="owl-carousel owl-theme services d-block d-sm-none" data-aos="fade-in">
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','branding')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/branding.svg')}}" alt="Branding"
                                              class="service-image img-fluid">
                                         <h5>Branding</h5>
                                         <p>Deep diving into the unfamiliar waters of Brand Mangement? Look to the
                                             experts, MTS to guide you through and be a class apart from the
                                             competition.</p>
-                                        <a href="{{route('servicesShow','branding')}}" class="read-more"><img
+                                        <a href="/" class="read-more"><img
                                                 src="{{asset('assets/img/more-grey.png')}}"
                                                 alt="Read Branding"
                                                 class="img-fluid"></a>
@@ -216,13 +211,13 @@
                             </div>
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','digital-marketing')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/digital-marketing.svg')}}" alt="Digital Marketing"
                                              class="service-image img-fluid">
                                         <h5>Digital Marketing</h5>
                                         <p>Attracting, Binding, Converting and Delighting.... The "ABCD " of Digital
                                             marketing and Business Strategy at LAYALI BAHRAIN.</p>
-                                        <a href="{{route('servicesShow','digital-marketing')}}" class="read-more"><img
+                                        <a href="/" class="read-more"><img
                                                 src="{{asset('assets/img/more-grey.png')}}"
                                                 alt="Read Digital Marketing"
                                                 class="img-fluid"></a>
@@ -231,13 +226,13 @@
                             </div>
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','it-consulting')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/it-consulting.svg')}}" alt="IT consulting"
                                              class="service-image img-fluid">
                                         <h5>IT Consulting</h5>
                                         <p>With our deep understanding of the web and strong marketing expertise, we’ve
                                             helped scores of companies redefine what they are doing online.</p>
-                                        <a href="{{route('servicesShow','it-consulting')}}" class="read-more"><img
+                                        <a href="/" class="read-more"><img
                                                 src="{{asset('assets/img/more-grey.png')}}"
                                                 alt="Read IT consulting "
                                                 class="img-fluid"></a>
@@ -246,13 +241,13 @@
                             </div>
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','android-and-ios-development')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/android-ios.svg')}}" alt="App Development"
                                              class="service-image img-fluid">
                                         <h5>App Development</h5>
                                         <p>If you're looking to leverage mobile technology for your business, our best
                                             app developers are at your service for both Android and IOS apps.</p>
-                                        <a href="{{route('servicesShow','android-and-ios-development')}}"
+                                        <a href="/"
                                            class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
                                                                   alt="Read App Development"
                                                                   class="img-fluid"></a>
@@ -262,14 +257,14 @@
                         
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','custom-software-development')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/software.svg')}}"
                                              alt="Custom Software Development"
                                              class="service-image img-fluid">
                                         <h5>Custom Software Development</h5>
                                         <p>We build robust and scalable web apps that are custom made using rapid
                                             development processes leveraging the most cultured web technologies.</p>
-                                        <a href="{{route('servicesShow','custom-software-development')}}"
+                                        <a href="/"
                                            class="read-more"><img src="assets/img/more-grey.png"
                                                                   alt="Read Custom Software Development"
                                                                   class="img-fluid"></a>
@@ -278,7 +273,7 @@
                             </div>
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','search-engine-optimization')}}">
+                                    <a href="">
                                         <img src="{{asset('assets/img/search-engine-optimization.svg')}}"
                                              alt="Search Engine Optimization"
                                              class="service-image img-fluid">
@@ -286,24 +281,22 @@
                                         <p>At LAYALI BAHRAIN, we take care of all your business concerns regarding SEO
                                             and make sure that your website is coming on the first page of Google
                                             results.</p>
-                                        <a href="{{route('servicesShow','search-engine-optimization')}}"
+                                        <a href=""
                                            class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
                                                                   alt="Read Search Engine Optimization"
                                                                   class="img-fluid"></a>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="item">
                                 <div class="service">
-                                    <a href="{{route('servicesShow','social-media-marketing')}}">
+                                    <a href="/">
                                         <img src="{{asset('assets/img/social-media-marketing.svg')}}"
                                              alt="Social Media Marketing"
                                              class="service-image img-fluid">
-                                        <h5>Social Media Marketing</h5>
-                                        <p>Great marketing on social media can bring remarkable success to your
-                                            business, creating devoted brand advocates and even driving leads and
-                                            sales.</p>
-                                        <a href="{{route('servicesShow','social-media-marketing')}}"
+                                        <h5>Tumkeen Support</h5>
+                                        <p>Lorem ipsum</p>
+                                        <a href="/"
                                            class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
                                                                   alt="Read Social Media Marketing"
                                                                   class="img-fluid"></a>

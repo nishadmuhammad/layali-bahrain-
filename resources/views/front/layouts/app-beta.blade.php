@@ -63,10 +63,10 @@
     <div class="row">
         <div class="col-sm-12">
             <ul class="list-inline">
-                <li class=""><a href="/">Home</a></li>
-                <li class=""><a href="/">About Us </a></li>
-                <li class=""><a href="/">Services</a></li>
-                <li class=""><a href="/">Contact Us</a></li>
+                <li class=""><a href="{{route('home')}}">Home</a></li>
+                <li class=""><a href="{{route('about')}}">About Us </a></li>
+                <li class=""><a href="{{route('services')}}">Services</a></li>
+                <li class=""><a href="{{route('contact')}}">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -75,7 +75,7 @@
         <ul class="contact-list list-inline">
             <li class="list-inline-item email">
                 <span>Email Us</span>
-                <a href="">info@layalibahrain.com</a>
+                <a href="">layalibahrain@gmail.com</a>
             </li>
             <li class="list-inline-item call">
                 <span>Reach Out</span>
@@ -164,16 +164,16 @@
                 <div class="col-sm-3">
                     <div class="quick-links">
                         <ul>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/">Services</a></li>
+                            <li><a href="{{route('about')}}">About</a></li>
+                            <li><a href="{{route('services')}}">Services</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="quick-links">
                         <ul>
-                            <li><a href="/">Careers</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <li><a href="{{route('careers')}}">Careers</a></li>
+                            <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul>
                     </div>
                 </div>

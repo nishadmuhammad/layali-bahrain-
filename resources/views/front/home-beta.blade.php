@@ -148,7 +148,20 @@
                                 </div>
                             </div>
                             <div class="item">
-                             
+                                <!-- <div class="service">
+                                    <a href="{{route('servicesShow','website-design-and-development')}}">
+                                        <img src="{{asset('assets/img/web-development-designing.svg')}}"
+                                             alt="Website Design"
+                                             class="service-image img-fluid">
+                                        <h5>Website Design and Development</h5>
+                                        <p>Boost your business through a technology first approach to showcase your
+                                            uniqueness. Dont settle with a template based , generic website.</p>
+                                        <a href="{{route('servicesShow','website-design-and-development')}}"
+                                           class="read-more"><img src="{{asset('assets/img/more-grey.png')}}"
+                                                                  alt="Read Website Design"
+                                                                  class="img-fluid"></a>
+                                    </a>
+                                </div> -->
                                 <div class="service">
                                     <a href="{{route('servicesShow','custom-software-development')}}">
                                         <img src="{{asset('assets/img/software.svg')}}"
@@ -316,7 +329,223 @@
             </div>
         </div>
         <div class="our-clients">
-           
+            <!-- <div class="container">
+                <h3>Few <span style="font-weight: bolder; font-size: 35px">Big Names</span> Our Team Members Associated
+                    in the Past</h3>
+                <div class="owl-carousel owl-theme clients">
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/microsoft.jpg')}}" alt="Microsoft"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/google.png')}}" alt="Google" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/amazon.jpg')}}" alt="Amazon" class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Colliers_Logo_v1.jpg')}}" alt="Colliers"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Dell_logo.png')}}" alt="Dell"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Flipkart.png')}}" alt="Flipkart" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/pumpkin-thumb.png')}}" alt="Pumpkin Kart"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/kotakv1.jpeg')}}" alt="Kotak Bank"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/ICICI_bank_logo.png')}}" alt="ICICI"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Idea.jpg')}}" alt="Idea" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Intel.jpg')}}" alt="Intel" class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/JLL.jpg')}}" alt="JLL" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/metricfox.jpg')}}" alt="Metricfox"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Nissan.jpg')}}" alt="Nissan" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Pepsi.jpg')}}" alt="Pepsi" class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/V-GAURD.png')}}" alt="Vguard"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/walmart.jpg')}}" alt="Walmart"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/Wipro-Icon-PNG-1024x1024.png')}}" alt="Wipro"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client.jpg')}}" alt="ITR Group" class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client1.jpg')}}" alt="XL Traction"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client4.jpg')}}" alt="Strings and Beads"
+                                            class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client5.jpg')}}" alt="Kasten"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client6.jpg')}}" alt="Chai Hut" class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client7.jpg')}}" alt="Futurefinserv"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client8.jpg')}}" alt="Sybu" class="img-fluid"></a>
+                        </div>
+                        <div class="client">
+                            <a href=""><img src="{{asset('assets/img/client9.jpg')}}" alt="Manukai"
+                                            class="img-fluid"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div> -->
+        </div>
+            <!-- <div class="portfolios" data-aos="fade-up">
+                <div class="container">
+                    <h6>Portfolio</h6>
+                    <div class="row">
+                        <div class="col-sm-6 col-10">
+                            <h3>Our Latest Projects</h3>
+                        </div>
+                        <div class="col-sm-6 col-2">
+                            <a href="{{route('portfolio')}}" class="text-right view-all"><span>View All Projects</span></a>
+                        </div>
+                    </div>
+                    <div class="owl-carousel owl-theme portfolio-slider">
+                        @foreach($portfolios as $portfolio)
+                            <div class="item">
+                                <div class="portfolio">
+                                    <a href="{{route('portfolio')}}" class="portfolio-image">
+                                        <img src="{{asset($portfolio->photo)}}" alt="{{$portfolio->title}}"
+                                            class="img-fluid">
+                                    </a>
+                                    <div class="portfolio-details">
+                                        <h4><a href="{{route('portfolio')}}">{{$portfolio->title}}</a></h4>
+                                        <a href="{{route('portfolio')}}" class="arrow"><img
+                                                src="{{asset('assets/img/arrow.png')}}" alt="Arrow" class="img-fluid"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                    <div class="slider-counter"></div>
+                </div>
+            </div> -->
+        <!-- <div class="testimonials" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h5>Client Testimonials</h5>
+                        <h6>See what people are saying about us.</h6>
+                        <p>At LAYALI BAHRAIN, we consider the clients’ vision our utmost priority as we transform and
+                            reflect it in the Digital space. We prioritize business needs at the center of all our work
+                            and are constantly driven by results.</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="owl-carousel owl-theme testimonial-slider">
+                            @foreach($testimonials as $testimonial)
+                                <div class="item">
+                                    <div class="testimonial">
+                                        <div class="testimonial-comment">
+                                            <span>{{$testimonial->description}}</span>
+                                        </div>
+                                        <div class="avatar">
+                                            <div class="profile-image">
+                                                <img src="{{asset($testimonial->profile_pic)}}" class="rounded-circle"
+                                                     alt="{{$testimonial->name}}">
+                                            </div>
+                                            <div class="profile-info">
+                                                <h5>{{$testimonial->name}}</h5>
+                                                <h6>{{$testimonial->designation}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                        <div class="slider-counter1"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="news-and-articles" data-aos="fade-up">
+            <h4>LAYALI BAHRAIN</h4>
+            <h5>News and articles</h5>
+            <div class="owl-carousel owl-theme news-articles">
+                @foreach($posts as $post)
+                    <div class="item">
+                        <div class="block">
+                            <a href="{{route('showBlog',$post->slug)}}" class="block-image">
+                                <img src="{{$post->thumbnail}}" alt="" class="img-fluid">
+                            </a>
+                            <h6>{{ucwords(strtolower($post->title))}}</h6>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <span>{{date('M  d Y', strtotime($post->created_at))}}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div> -->
         <div class="locations" data-aos="fade-up">
             <div class="container">
                 <img src="assets/img/location.png" alt="Company Location" class="img-fluid">

@@ -103,7 +103,7 @@
 </div>
 <a href="javascript:void(0)" class="toggle-link toggle-icon"><img src="{{asset('assets/img/toggle.png')}}" alt="Sliding Menu"></a>
 <a href="tel:+97333583355" class="call-button"><img src="{{asset('assets/img/call-black.svg')}}"
-                                                    alt="Agency Contact"><span>+(973) 353 48520</span></a>
+                                                    alt="Agency Contact"><span>+(973) 335 83355</span></a>
 <a href="https://wa.me/97333583355" class="whatsapp-mobile d-block d-sm-none img-fluid"><img
         src="{{asset('assets/img/whatsapp.svg')}}" alt="" alt="whatsapp"></a>
 <nav class="navbar @yield('navClass') navbar-expand-lg fixed-top navbar-light">

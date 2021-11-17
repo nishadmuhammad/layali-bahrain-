@@ -1,6 +1,5 @@
 @extends('front.layouts.app')
 @section('title', 'About Layali Bahrain | Business Consultancy Bahrain')
-@section('description',Business Consultancy Bahrain')
 @section('keywords','Business Consultancy Bahrain')
 @section('ogImage','')
 @section('navClass','inner')

@@ -19,12 +19,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','it-consulting')}}">
+                                <a href="{{route('services','it-consulting')}}">
                                     <img src="{{asset('assets/img/it-consulting.svg')}}" alt="IT Consulting" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','it-consulting')}}">Vat Consultation</a></h4>
+                                <h4><a href="{{route('services','it-consulting')}}">Vat Consultation</a></h4>
                                 <span>With our deep understanding of the web and strong marketing expertise, we’ve helped scores of companies redefine what they are doing online.</span>
                             </div>
                         </div>
@@ -32,12 +32,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','branding')}}">
+                                <a href="{{route('services','branding')}}">
                                     <img src="{{asset('assets/img/branding.svg')}}" alt="Branding" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','branding')}}">Vat Audits</a></h4>
+                                <h4><a href="{{route('services','branding')}}">Vat Audits</a></h4>
                                 <!-- <span>Branding, at its core, is the process of building an identity that will become the foundation for the future of your business. </span> -->
                             </div>
                         </div>
@@ -45,12 +45,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','digital-marketing')}}">
+                                <a href="{{route('services','digital-marketing')}}">
                                     <img src="{{asset('assets/img/digital-marketing.svg')}}" alt="Digital Marketing" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','digital-marketing')}}">Accounting & Book Keeping</a></h4>
+                                <h4><a href="{{route('services','digital-marketing')}}">Accounting & Book Keeping</a></h4>
                                 <!-- <span>Digital marketing encompasses all marketing efforts that use an electronic device or the internet. </span> -->
                             </div>
                         </div>
@@ -58,12 +58,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','social-media-marketing')}}">
+                                <a href="{{route('services','social-media-marketing')}}">
                                     <img src="{{asset('assets/img/social-media-marketing.svg')}}" alt="SMM" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','social-media-marketing')}}">Trade Name Registration</a></h4>
+                                <h4><a href="{{route('services','social-media-marketing')}}">Trade Name Registration</a></h4>
                                 <!-- <span>Social media marketing is a powerful way for businesses of all sizes to reach prospects and customers.</span> -->
                             </div>
                         </div>
@@ -71,12 +71,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','search-engine-optimization')}}">
+                                <a href="{{route('services','search-engine-optimization')}}">
                                     <img src="{{asset('assets/img/search-engine-optimization.svg')}}" alt="SEO" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','search-engine-optimization')}}">Tamkeen Application</a></h4>
+                                <h4><a href="{{route('services','search-engine-optimization')}}">Tamkeen Application</a></h4>
                                 <!-- <span>You can promote your business through search engine optimization, but do you know how? Well, not everyone’s cup of tea.</span> -->
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','website-design-and-development')}}">
+                                <a href="{{route('services','website-design-and-development')}}">
                                     <img src="{{asset('assets/img/branding.svg')}}" alt="Web Design" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','website-design-and-development')}}">Business Sale & Purchase
+                                <h4><a href="{{route('services','website-design-and-development')}}">Business Sale & Purchase
                                         & Web Design</a></h4>
                                 <!-- <span>In digital space, websites are the front face of your business. In LAYALI BAHRAIN, we strongly believe that websites plays a crucial role in shaping your brand.</span> -->
                             </div>
@@ -100,12 +100,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','android-and-ios-development')}}">
+                                <a href="{{route('services','android-and-ios-development')}}">
                                     <img src="assets/img/android-ios.svg" alt="App Development" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','android-and-ios-development')}}">Over 60 Visa Applications</a></h4>
+                                <h4><a href="{{route('services','android-and-ios-development')}}">Over 60 Visa Applications</a></h4>
                                 <!-- <span>If you have a vision for an application, we have the tools to make that vision a reality. </span> -->
                             </div>
                         </div>
@@ -113,12 +113,12 @@
                     <div class="col-sm-4">
                         <div class="service" data-aos="zoom-in-up">
                             <div class="service-image">
-                                <a href="{{route('servicesShow','custom-software-development')}}">
+                                <a href="{{route('services','custom-software-development')}}">
                                     <img src="{{asset('assets/img/software.svg')}}" alt="Custom Software" class="img-fluid">
                                 </a>
                             </div>
                             <div class="service-details">
-                                <h4><a href="{{route('servicesShow','custom-software-development')}}">Embassy Service</a></h4>
+                                <h4><a href="{{route('services','custom-software-development')}}">Embassy Service</a></h4>
                                 <!-- <span>We provide software consulting services, which assess the processes of a business or organization and provide software solutions and other recommendations based on this assessment.</span> -->
                             </div>
                         </div>

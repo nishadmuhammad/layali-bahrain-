@@ -79,76 +79,76 @@
                     <div class="owl-carousel owl-theme services d-none d-sm-block" data-aos="fade-in">
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','branding')}}">
+                                <a href="{{route('services','branding')}}">
                                     <img src="{{asset('assets/img/branding.svg')}}" alt="Branding" class="service-image img-fluid">
                                     <h5>Vat Registration</h5>
                                  <p></p>
-                                    <a href="{{route('servicesShow','branding')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Branding Services" class="img-fluid"></a>
+                                    <a href="{{route('services','branding')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Branding Services" class="img-fluid"></a>
                                 </a>
                             </div>
                             <div class="service">
-                                <a href="{{route('servicesShow','digital-marketing')}}">
+                                <a href="{{route('services','digital-marketing')}}">
                                     <img src="{{asset('assets/img/digital-marketing.svg')}}" alt="Digital Marketing" class="service-image img-fluid">
                                     <h5>Audit</h5>
                                    <p></p>
-                                    <a href="{{route('servicesShow','digital-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Digital Marketing" class="img-fluid"></a>
+                                    <a href="{{route('services','digital-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Digital Marketing" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','it-consulting')}}">
+                                <a href="{{route('services','it-consulting')}}">
                                     <img src="{{asset('assets/img/it-consulting.svg')}}" alt="IT consulting" class="service-image img-fluid">
                                     <h5>Tamkeen Application</h5>
                                    <p></p>
-                                    <a href="{{route('servicesShow','it-consulting')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read IT consulting " class="img-fluid"></a>
+                                    <a href="{{route('services','it-consulting')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read IT consulting " class="img-fluid"></a>
                                 </a>
                             </div>
                             <div class="service">
-                                <a href="{{route('servicesShow','android-and-ios-development')}}">
+                                <a href="{{route('services','android-and-ios-development')}}">
                                     <img src="{{asset('assets/img/android-ios.svg')}}" alt="Android and iOS apps" class="service-image img-fluid">
                                     <h5>Company Formation</h5>
                                     
                                   <p></p>
-                                    <a href="{{route('servicesShow','android-and-ios-development')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Android and iOS apps" class="img-fluid"></a>
+                                    <a href="{{route('services','android-and-ios-development')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Android and iOS apps" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','android-and-ios-development')}}">
+                                <a href="{{route('services','android-and-ios-development')}}">
                                     <img src="{{asset('assets/img/android-ios.svg')}}" alt="App Development" class="service-image img-fluid">
                                     <h5>Amedment</h5>
                                    
                                   <p></p>
-                                    <a href="{{route('servicesShow','android-and-ios-development')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read App Development" class="img-fluid"></a>
+                                    <a href="{{route('services','android-and-ios-development')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read App Development" class="img-fluid"></a>
                                 </a>
                             </div>
                             <div class="service">
-                                <a href="{{route('servicesShow','custom-software-development')}}">
+                                <a href="{{route('services','custom-software-development')}}">
                                     <img src="{{asset('assets/img/software.svg')}}" alt="Custom Software Development" class="service-image img-fluid">
                                     <h5>Accounting And Audit</h5>
                                     
                                    <p></p>
-                                    <a href="{{route('servicesShow','custom-software-development')}}" class="read-more"><img src="assets/img/more-grey.png" alt="Read Custom Software Development" class="img-fluid"></a>
+                                    <a href="{{route('services','custom-software-development')}}" class="read-more"><img src="assets/img/more-grey.png" alt="Read Custom Software Development" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','search-engine-optimization')}}">
+                                <a href="{{route('services','search-engine-optimization')}}">
                                     <img src="{{asset('assets/img/search-engine-optimization.svg')}}" alt="Search Engine Optimization" class="service-image img-fluid">
                                     <h5>Book Keeping Service</h5>
                                   <p></p>
-                                    <a href="{{route('servicesShow','search-engine-optimization')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Search Engine Optimization" class="img-fluid"></a>
+                                    <a href="{{route('services','search-engine-optimization')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Search Engine Optimization" class="img-fluid"></a>
                                 </a>
                             </div>
                             <div class="service">
-                                <a href="{{route('servicesShow','social-media-marketing')}}">
+                                <a href="{{route('services','social-media-marketing')}}">
                                     <img src="{{asset('assets/img/social-media-marketing.svg')}}" alt="Social Media Marketing" class="service-image img-fluid">
                                     <h5>Audit</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','social-media-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Social Media Marketing" class="img-fluid"></a>
+                                    <a href="{{route('services','social-media-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Social Media Marketing" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
@@ -156,72 +156,72 @@
                     <div class="owl-carousel owl-theme services d-block d-sm-none" data-aos="fade-in">
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','branding')}}">
+                                <a href="{{route('services','branding')}}">
                                     <img src="{{asset('assets/img/branding.svg')}}" alt="Branding" class="service-image img-fluid">
                                     <h5>Tamkeen Application</h5>
                                   <p></p>
-                                    <a href="{{route('servicesShow','branding')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Branding" class="img-fluid"></a>
+                                    <a href="{{route('services','branding')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Branding" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','digital-marketing')}}">
+                                <a href="{{route('services','digital-marketing')}}">
                                     <img src="{{asset('assets/img/digital-marketing.svg')}}" alt="Digital Marketing" class="service-image img-fluid">
                                     <h5>Company Formation</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','digital-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Digital Marketing" class="img-fluid"></a>
+                                    <a href="{{route('services','digital-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Digital Marketing" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','it-consulting')}}">
+                                <a href="{{route('services','it-consulting')}}">
                                     <img src="{{asset('assets/img/it-consulting.svg')}}" alt="IT consulting" class="service-image img-fluid">
                                     <h5>Amedment</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','it-consulting')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read IT consulting " class="img-fluid"></a>
+                                    <a href="{{route('services','it-consulting')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read IT consulting " class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','android-and-ios-development')}}">
+                                <a href="{{route('services','android-and-ios-development')}}">
                                     <img src="{{asset('assets/img/android-ios.svg')}}" alt="App Development" class="service-image img-fluid">
                                     <h5>Accounting And Audit</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','android-and-ios-development')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read App Development" class="img-fluid"></a>
+                                    <a href="{{route('services','android-and-ios-development')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read App Development" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','custom-software-development')}}">
+                                <a href="{{route('services','custom-software-development')}}">
                                     <img src="{{asset('assets/img/software.svg')}}" alt="Custom Software Development" class="service-image img-fluid">
                                     <h5>Book Keeping Service</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','custom-software-development')}}" class="read-more"><img src="assets/img/more-grey.png" alt="Read Custom Software Development" class="img-fluid"></a>
+                                    <a href="{{route('services','custom-software-development')}}" class="read-more"><img src="assets/img/more-grey.png" alt="Read Custom Software Development" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','search-engine-optimization')}}">
+                                <a href="{{route('services','search-engine-optimization')}}">
                                     <img src="{{asset('assets/img/search-engine-optimization.svg')}}" alt="Search Engine Optimization" class="service-image img-fluid">
                                     <h5>Audit</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','search-engine-optimization')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Search Engine Optimization" class="img-fluid"></a>
+                                    <a href="{{route('services','search-engine-optimization')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Search Engine Optimization" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="service">
-                                <a href="{{route('servicesShow','social-media-marketing')}}">
+                                <a href="{{route('services','social-media-marketing')}}">
                                     <img src="{{asset('assets/img/social-media-marketing.svg')}}" alt="Social Media Marketing" class="service-image img-fluid">
                                     <h5>Vat In bahrain</h5>
                                     <p></p>
-                                    <a href="{{route('servicesShow','social-media-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Social Media Marketing" class="img-fluid"></a>
+                                    <a href="{{route('services','social-media-marketing')}}" class="read-more"><img src="{{asset('assets/img/more-grey.png')}}" alt="Read Social Media Marketing" class="img-fluid"></a>
                                 </a>
                             </div>
                         </div>

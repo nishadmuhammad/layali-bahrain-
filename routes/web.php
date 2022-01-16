@@ -37,7 +37,7 @@ Route::get('/admin', 'HomeController@index')->name('admin');
 
 
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('/home', 'admin\NewsfeedController@index')->name('home');
+    Route::get('/home', 'admin\NewsfeedController@index')->name('homnews.feed');
 
     Route::get('/company', 'admin\CompanyController@index')->name('company');
     Route::get('/companies', 'admin\CompanyController@show')->name('company.index');

@@ -13,7 +13,6 @@ class NewsfeedController extends Controller
     // all new for new index
     public function all()
     {
-
       $newses =News_feed::orderBy('created_at','desc')
       ->get();
 
